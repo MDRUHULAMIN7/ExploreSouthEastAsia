@@ -41,7 +41,7 @@ const Home = () => {
       
     >
       {/*  */}
-      <SwiperSlide><div className=" hero  bg-cover h-[500px] bg-no-repeat bg-[url('https://i.ibb.co/Yj94wdH/mamun-srizon-qay3l-NDSHzc-unsplash.jpg')]">
+      <SwiperSlide><div className=" hero  bg-cover h-screen bg-no-repeat bg-[url('https://i.ibb.co/Yj94wdH/mamun-srizon-qay3l-NDSHzc-unsplash.jpg')]">
 
         <div className='hero-overlay bg-opacity-60 lg:pl-20 pl-10 pt-20 space-y-3'>
             <h1 className='md:text-4xl text-3xl  text-white'>Explore The Natural <br /> Beauty of Bangladesh With <br />
@@ -56,7 +56,7 @@ user? <p className='text-xl font-bold text-rose-500'>Wellcome {user.displayName}
         </div></div></SwiperSlide>
         {/*  */}
 
-      <SwiperSlide><div className=" bg-cover bg-no-repeat h-[500px] bg-[url('https://i.ibb.co/nmVwFS1/esmonde-yong-9-B08udu-My-Y-unsplash.jpg')]"> <div className='hero-overlay bg-opacity-60 lg:pl-20 pl-10 pt-20 space-y-3'>
+      <SwiperSlide><div className=" bg-cover bg-no-repeat h-screen bg-[url('https://i.ibb.co/nmVwFS1/esmonde-yong-9-B08udu-My-Y-unsplash.jpg')]"> <div className='hero-overlay bg-opacity-60 lg:pl-20 pl-10 pt-20 space-y-3'>
             <h1 className='md:text-4xl text-3xl text-white'>Explore The Excitment of <br /> Future of Malayshia With <br />
         <div className='text-rose-500 mt-4'>ExploreTheSouthEastAsia</div>
         <div className='mt-2'><p className="text-xl font bold text-indigo-200">We always try our best for your best journey</p></div></h1>
@@ -69,7 +69,7 @@ user? <p className='text-xl font-bold text-rose-500'>Wellcome {user.displayName}
         </div></div></SwiperSlide>
         {/*  */}
 
-      <SwiperSlide><div className=" bg-cover bg-no-repeat h-[500px] bg-[url('https://i.ibb.co/S0DsB4J/andrea-cau-n-V6-GJm-Sq3zc-unsplash.jpg')]"> <div className='hero-overlay bg-opacity-60 lg:pl-20 pl-10 pt-20 space-y-3'>
+      <SwiperSlide><div className=" bg-cover bg-no-repeat h-screen bg-[url('https://i.ibb.co/S0DsB4J/andrea-cau-n-V6-GJm-Sq3zc-unsplash.jpg')]"> <div className='hero-overlay bg-opacity-60 lg:pl-20 pl-10 pt-20 space-y-3'>
             <h1 className='md:text-4xl text-3xl text-white'>Explore The Fantasy <br /> Life of Bangkok With <br />
         <div className='text-rose-500 mt-4'>ExploreTheSouthEastAsia</div>
         <div className='mt-2'><p className="text-xl font bold text-gray-200">We always try our best for your best journey</p></div></h1>
@@ -82,7 +82,7 @@ user? <p className='text-xl font-bold text-rose-500'>Wellcome {user.displayName}
         </div></div></SwiperSlide>
         {/*  */}
 
-      <SwiperSlide><div className=" bg-cover bg-no-repeat h-[500px] bg-[url('https://i.ibb.co/F4yt1P9/rowan-heuvel-SPhq-G6-Kir-QM-unsplash.jpg')]"> <div className='hero-overlay bg-opacity-60 lg:pl-20 pl-10 pt-20 space-y-3'>
+      <SwiperSlide><div className=" bg-cover bg-no-repeat h-screen bg-[url('https://i.ibb.co/F4yt1P9/rowan-heuvel-SPhq-G6-Kir-QM-unsplash.jpg')]"> <div className='hero-overlay bg-opacity-60 lg:pl-20 pl-10 pt-20 space-y-3'>
             <h1 className='md:text-4xl text-3xl text-white'>Explore The Night <br /> Beauty of Combodia With <br />
         <div className='text-rose-500 mt-4'>ExploreTheSouthEastAsia</div>
         <div className='mt-2'><p className="text-xl font bold text-slate-400">We always try our best for your best journey</p></div></h1>

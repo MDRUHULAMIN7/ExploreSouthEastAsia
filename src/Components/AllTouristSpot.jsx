@@ -27,16 +27,7 @@ const handleDescending=()=>{
         
         setitems(sortitmes)
 }
-// useEffect(()=>{
 
-    
-//     const sortitmes= [...spots].sort((a,b)=>
-// a.averagecost - b.averagecost)
-    
-//     setitems(sortitmes)
-//     console.log(sortitmes);
-//     console.log(items);
-// },[])
 
 
 
@@ -55,10 +46,10 @@ const handleDescending=()=>{
 
             <div>
             <details className="dropdown">
-  <summary className="m-1 btn bg-rose-400">Sort By AverageCost</summary>
+  <summary className="m-1 btn bg-rose-300">Sort By AverageCost</summary>
   <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box ">
-    <li className="text-rose-400"><button onClick={handleAscending}>Low to High Cost </button></li>
-    <li className="text-rose-400"><button onClick={handleDescending }>High To Low Cost</button></li>
+    <li className="text-rose-300"><button onClick={handleAscending}>Low to High Cost </button></li>
+    <li className="text-rose-300"><button onClick={handleDescending }>High To Low Cost</button></li>
  
   </ul>
 </details>
