@@ -45,7 +45,7 @@ const MyListCard = ({spot,myLists,SetMyLists}) => {
             })
         }
     return (
-        <div className="card  bg-base-100 shadow-xl hover:scale-105 hover:shadow-2xl">
+        <div className="card  bg-base-100 h-4/5 shadow-xl hover:scale-105 hover:shadow-2xl">
   <figure className="hover:-translate-y-px transition-shadow" ><img src={image} alt="Shoes" /></figure>
   <div className="card-body">
 
