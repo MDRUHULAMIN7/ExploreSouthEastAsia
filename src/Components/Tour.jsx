@@ -3,33 +3,26 @@ import { FaDollarSign } from "react-icons/fa6";
 const Tour = ({tour}) => {
     return (
         <div>
-             <div className="  bg-base-100 border-2 border-base-200
+             <div className="  bg-base-100 border-2 h-96 border-base-200
              hover:border-rose-300 hover:text-rose-400  hover:shadow-2xl" >
 
-                <div className="">
-                <figure className="hover:-translate-y-px transition-shadow" ><img className=" " src={tour.image} alt="Shoes" /></figure>
+                <div className="h-1/2">
+                <img className=" h-full w-full" src={tour.image} alt="Shoes" />
                 </div>
 
-                <div>
-                <div className="card-body">
+                <div className="h-1/2 mt-4 ml-4">
   
-  <div className="">
-      <div className=" space-y-2 md:text-sm">
+                <div className=" space-y-2 md:text-sm">
       <p className="text-2xl md:text-xl">{tour.touristspotname} </p>
           <p className="flex items-center"><span>TotalCost </span>  : {tour.averagecost} <FaDollarSign></FaDollarSign></p>
           <p><span>TourTime</span> : {tour.traveltime}</p>
-      </div>
-      <div className="space-y-2 md:text-sm">
-        
           <p ><span>Season</span> : {tour.seosanlity}</p>
-      
       </div>
-  </div>
 
 
 
 </div>
-                </div>
+            
     
 
   </div>
