@@ -29,9 +29,9 @@ const Blog = ({tours }) => {
       </h1>
     </div>
 
-    <div className=''>
+    <div className='mt-10'>
 
-        <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mx-4 mt-10'>
+        <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mx-8 mt-10'>
         {
     tours.map(tour=><Tour key={tour._id} tour={tour}></Tour>)
 }

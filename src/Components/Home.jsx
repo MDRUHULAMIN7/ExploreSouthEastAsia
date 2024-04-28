@@ -98,7 +98,7 @@ user? <p className='text-xl font-bold text-rose-500'>Wellcome {user.displayName}
     </Swiper>
     <div className='mt-10 '>
       <h1 className='mb-5 text-3xl lg:text-5xl md:text-4xl text-center'>Tourists Spots </h1>
-      <div className=' mx-4 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5'>
+      <div className=' mx-4 pt-12 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10'>
         {
           news.map(spot=> <SpotCard spot={spot} key={spot._id}></SpotCard>)
         }
