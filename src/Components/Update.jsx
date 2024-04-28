@@ -40,7 +40,7 @@ console.log(image);
         const  updatedspot = {image,touristspotname,countryname,location,averagecost,seosanlity,traveltime,totalvisitor,description}
 
     // send data to server 
-    fetch(`http://localhost:5000/mylist/${_id}`,{
+    fetch(`https://y-xi-rose.vercel.app/mylist/${_id}`,{
         method:'PUT',
         headers:{
             'content-type':'application/json'

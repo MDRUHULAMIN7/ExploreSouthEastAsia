@@ -27,7 +27,7 @@ console.log(image);
 
 console.log(touristspot);
 
-fetch(`http://localhost:5000/spots`,{
+fetch(`https://y-xi-rose.vercel.app/spots`,{
     method:"POST",
     headers:{
         'content-type':'application/json'

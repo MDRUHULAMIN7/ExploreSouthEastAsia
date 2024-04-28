@@ -21,7 +21,7 @@ const router = createBrowserRouter([
         {
         path:'/',
         element:<Home></Home>,
-        loader:()=> fetch('http://localhost:5000/spots')
+        loader:()=> fetch('https://y-xi-rose.vercel.app/spots')
          },
 
         {
@@ -39,23 +39,23 @@ const router = createBrowserRouter([
         {
             path:'/alltouristspots',
             element:<AllTouristSpot></AllTouristSpot>,
-            loader:()=>fetch('http://localhost:5000/spots')
+            loader:()=>fetch('https://y-xi-rose.vercel.app/spots')
         },
         {
 
         path:'/spotdetails/:id',
         element:<PrivateRoute><SpotDetails></SpotDetails></PrivateRoute>,
-        loader:()=>fetch("http://localhost:5000/spots")
+        loader:()=>fetch("https://y-xi-rose.vercel.app/spots")
         },
         {
             path:"/mylist",
             element:<PrivateRoute><MyList></MyList></PrivateRoute>,
-            loader:()=>fetch('http://localhost:5000/spots')
+            loader:()=>fetch('https://y-xi-rose.vercel.app/spots')
         },
         {
             path:"/updatemylist/:id",
             element:<Update></Update>,
-            loader:()=>fetch(`http://localhost:5000/spots`)
+            loader:()=>fetch(`https://y-xi-rose.vercel.app/spots`)
         }
             ]
     }
