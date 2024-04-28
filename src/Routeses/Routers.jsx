@@ -9,6 +9,7 @@ import PrivateRoute from "../AuthProvider.jsx/PrivateRoute";
 import AllTouristSpot from "../Components/AllTouristSpot";
 import SpotDetails from "../Components/SpotDetails";
 import MyList from "../Components/MyList";
+import Update from "../Components/Update";
 
 
 const router = createBrowserRouter([
@@ -50,6 +51,11 @@ const router = createBrowserRouter([
             path:"/mylist",
             element:<PrivateRoute><MyList></MyList></PrivateRoute>,
             loader:()=>fetch('http://localhost:5000/spots')
+        },
+        {
+            path:"/updatemylist/:id",
+            element:<Update></Update>,
+            loader:()=>fetch(`http://localhost:5000/spots`)
         }
             ]
     }

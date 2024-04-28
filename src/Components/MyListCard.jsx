@@ -30,7 +30,7 @@ const MyListCard = ({spot}) => {
     <div className=" flex gap-2 justify-center items-center mt-3">
 
         <Link  to={`/spotdetails/${_id}`}>  <button className="btn btn-primary w-full"> Details</button></Link>
-        <Link  to={`/spotdetails/${_id}`}>  <button className="btn btn-secondary w-full">Update</button></Link>
+        <Link  to={`/updatemylist/${_id}`}>  <button className="btn btn-secondary w-full">Update</button></Link>
         <Link  >  <button className="btn btn-accent w-full">Delete</button></Link>
     
     </div>
