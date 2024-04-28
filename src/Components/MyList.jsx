@@ -28,7 +28,7 @@ const MyList = () => {
 
             <div className=" mx-4 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-10">
                 {
-                    myLists.map(spot=> <MyListCard  key={spot._id} spot={spot}></MyListCard>)
+                    myLists.map(spot=> <MyListCard  key={spot._id} spot={spot} myLists={myLists} SetMyLists={SetMyLists}></MyListCard>)
                 }
             </div>
            
