@@ -25,8 +25,9 @@ const SignIn = () => {
         signin(email,password)
         .then(result =>{
           console.log(result.user);
-          e.target.reset()
           navigate('/')
+          e.target.reset()
+         
           setUser(result.user)
   toast('Login Successfully')
         })
