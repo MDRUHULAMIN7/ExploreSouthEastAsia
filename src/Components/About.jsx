@@ -5,7 +5,7 @@ const About = () => {
     
 
     return (
-        <div className='mx-4 pt-5'>
+        <div id="slideabout" className='mx-4 pt-5'>
             <div className="mt-5">
             <Fade direction="up">
             <h1 className="text-center font-semibold lg:text-5xl md:text-3xl text-2xl mb-3">About Us </h1>

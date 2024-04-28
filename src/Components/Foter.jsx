@@ -11,7 +11,7 @@ const Foter = () => {
   <footer className="footer p-10 mt-10 bg-base-200 text-base-content">
   <aside>
   <Link to={'/'}>
-          <a className=" text-lg">
+          <a href="#slidehome" className=" text-lg">
             <div className="">
             <h1 className="flex justify-center"><img className="w-6" src={pic} alt="" /> <span>ExploreThe</span></h1> <h1 className="text-rose-500">SouthEastAsia</h1></div></a>
           </Link>
@@ -30,7 +30,7 @@ const Foter = () => {
   <nav>
     <h6 className="footer-title">Company</h6> 
     <Link to={''}></Link>
-    <a className="link link-hover">About us</a>
+    <a href="#slideabout" className="link link-hover">About us</a>
     <a className="link link-hover">Contact</a>
     <a className="link link-hover">Tours</a>
     <a className="link link-hover">Press kit</a>

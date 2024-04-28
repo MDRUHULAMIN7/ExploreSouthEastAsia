@@ -66,7 +66,7 @@ const MyListCard = ({spot,myLists,SetMyLists}) => {
 
         <Link  to={`/spotdetails/${_id}`}>  <button className="btn btn-primary w-full"> Details</button></Link>
         <Link  to={`/updatemylist/${_id}`}>  <button className="btn btn-secondary w-full">Update</button></Link>
-        <Link  >  <button onClick={handleDelete(_id)} className="btn btn-accent w-full">Delete</button></Link>
+        <Link  >  <button onClick={()=>handleDelete(_id)} className="btn btn-accent w-full">Delete</button></Link>
     
     </div>
   </div>

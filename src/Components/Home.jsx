@@ -23,7 +23,7 @@ const Home = () => {
     const tours = spots.slice(0,8);
    
     return (
-        <div className='pt-16'>
+        <div id="slidehome" className='pt-16'>
    
 
          <Swiper className='h-screen '
