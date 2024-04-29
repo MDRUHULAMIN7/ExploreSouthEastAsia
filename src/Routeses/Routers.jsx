@@ -10,6 +10,8 @@ import AllTouristSpot from "../Components/AllTouristSpot";
 import SpotDetails from "../Components/SpotDetails";
 import MyList from "../Components/MyList";
 import Update from "../Components/Update";
+import Country from "../Components/Country";
+import CountryDetails from "../Components/CountryDetails";
 
 
 
@@ -49,6 +51,12 @@ const router = createBrowserRouter([
         loader:()=>fetch("https://y-xi-rose.vercel.app/spots")
         },
         {
+            path:'countrydetails/:id',
+            element:<CountryDetails></CountryDetails>,
+            loader:()=>fetch(`https://y-xi-rose.vercel.app/countries`)
+
+        },
+        {
             path:"/mylist",
             element:<PrivateRoute><MyList></MyList></PrivateRoute>,
             loader:()=>fetch('https://y-xi-rose.vercel.app/spots')
@@ -57,6 +65,10 @@ const router = createBrowserRouter([
             path:"/updatemylist/:id",
             element:<Update></Update>,
             loader:()=>fetch(`https://y-xi-rose.vercel.app/spots`)
+        },{
+            path:`/countries/:countryName`,
+            element:<Country></Country>,
+            loader:()=>fetch(`https://y-xi-rose.vercel.app/countries`)
         }
             ]
     }
