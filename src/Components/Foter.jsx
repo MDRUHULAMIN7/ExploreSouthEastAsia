@@ -8,7 +8,7 @@ import { FaYoutube } from "react-icons/fa";
 const Foter = () => {
     return (
         <div>
-  <footer className="footer p-10 mt-10 bg-base-200 text-base-content">
+  <footer className="footer p-10 pt-10 bg-base-200 text-base-content">
   <aside>
   <Link to={'/'}>
           <a href="#slidehome" className=" text-lg">

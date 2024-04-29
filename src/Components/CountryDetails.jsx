@@ -20,7 +20,7 @@ const CountryDetails = () => {
     averagecost,seasonality
 }=spot
     return (
-        <div className="  pt-20 bg-base-200 px-4 ">
+        <div className="  pt-20 bg-rose-50 pb-5 px-4 ">
 
 
         <div>
@@ -32,20 +32,20 @@ const CountryDetails = () => {
           <img src={image} className="w-full h-full rounded-lg shadow-2xl" />
           </div>
         
-                 <div className="w-1/2">
+                 <div className="w-1/2 space-y-3">
                  <h1 className=" font-bold text-3xl md:text-4xl mb-2">{countryName}</h1>
-                 <h2>{location}</h2>
+                 <h2 className="text-xl">{location}</h2>
             <p className="py-3">{
         description}</p>
-        <p>
+        <p className="text-xl">
             
             
             Averagecost: {averagecost}$</p>
-        <p>Season: { seasonality}</p>
+        <p className="text-xl">Season: { seasonality}</p>
        
         
         <Link to={'/'}>
-        <button className="btn btn-accent mt-2 w-2/4">Go Home</button>
+        <button className="btn btn-accent mt-4 w-2/4">Go Home</button>
         </Link>
             
                  </div>
