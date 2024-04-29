@@ -48,8 +48,8 @@ fetch(`https://y-xi-rose.vercel.app/spots`,{
 })
     }
     return (
-        <div className="hero  pt-20 bg-base-200">
-        <div className="hero-content flex-col">
+        <div className=" h-4/6 w-5/6 mx-auto pt-20 bg-base-200">
+        <div className=" flex-col">
           <div className="text-center ">
             <h1 className="text-3xl font-bold">Add Tourist Spot</h1>
        
@@ -135,7 +135,7 @@ fetch(`https://y-xi-rose.vercel.app/spots`,{
                 <label className="label">
                   <span className="label-text">UserEmail</span>
                 </label>
-                <input type="email" value={email} placeholder="inputemail" className="input input-bordered" name="email" required />
+                <input type="email" readOnly value={email} placeholder="inputemail" className="input input-bordered" name="email" required />
                
               </div>
               <div className="e.target-control lg:col-span-2 w-full md:col-span-2 col-span-1">

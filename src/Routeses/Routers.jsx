@@ -10,7 +10,7 @@ import AllTouristSpot from "../Components/AllTouristSpot";
 import SpotDetails from "../Components/SpotDetails";
 import MyList from "../Components/MyList";
 import Update from "../Components/Update";
-import Countries from "../Components/Countries";
+
 
 
 const router = createBrowserRouter([
@@ -57,10 +57,6 @@ const router = createBrowserRouter([
             path:"/updatemylist/:id",
             element:<Update></Update>,
             loader:()=>fetch(`https://y-xi-rose.vercel.app/spots`)
-        },{
-            path:"/countries",
-            element:<Countries></Countries>,
-            loader:()=>fetch('http://localhost:5000/countries')
         }
             ]
     }
