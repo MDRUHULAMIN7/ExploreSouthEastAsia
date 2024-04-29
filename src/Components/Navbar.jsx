@@ -77,8 +77,8 @@ const Navbar = () => {
           </div >
           <Link to={'/'}>
           <a className=" text-lg">
-            <div className="">
-            <h1 className="flex justify-center"><img className="w-6" src={pic} alt="" /> <span>ExploreThe</span></h1> <h1 className="text-rose-500">SouthEastAsia</h1></div></a>
+            <div className="text-xl md:text-2xl">
+            <h1 className="flex justify-center"><img className="md:w-6 w-4" src={pic} alt="" /> <span>ExploreThe</span></h1> <h1 className="text-rose-500">SouthEastAsia</h1></div></a>
           </Link>
       
         </div>

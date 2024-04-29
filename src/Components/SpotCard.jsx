@@ -10,7 +10,7 @@ const SpotCard = ({spot}) => {
         traveltime,
         totalvisitor}=spot
     return (
-        <div className="card h-96  bg-base-100 shadow-xl hover:scale-105 hover:transition-colors hover:shadow-2xl">
+        <div className="card h-[500px] md:h-96  bg-base-100 shadow-xl hover:scale-105 hover:transition-colors hover:shadow-2xl">
             <div className="h-1/2 ">
             <img className="h-full w-full rounded-t-lg" src={image} alt="Shoes" />
             </div>

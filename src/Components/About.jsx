@@ -16,7 +16,7 @@ const About = () => {
 
                 <div className="md:flex gap-7 w-3/5 mx-auto">
                    
-                    <div className="w-1/2 text-right space-y-3">
+                    <div className="w-1/2 md:text-right text-center space-y-3">
                     <div className="space-y-2">
                         <h1 className="text-2xl font-semibold">Our Mission</h1>
                         <p>Showcase breathtaking beauty, preserve heritage, and create unforgettable experiences for global travelers.</p>
@@ -27,7 +27,7 @@ const About = () => {
                         <p>Become the top destination, celebrated for authenticity, hospitality, and sustainable tourism practices.</p>
                     </div>
                     </div>
-                    <div className="w-1/2 text-left space-y-3">
+                    <div className="w-1/2 md:text-left text-center space-y-3">
                     <div className="space-y-2">
                         <h1 className="text-2xl font-semibold">PRINCIPLES</h1>
                         <p>Respect local customs, conserve nature, empower communities, and foster cross-cultural understanding for memorable and ethical travel</p>
