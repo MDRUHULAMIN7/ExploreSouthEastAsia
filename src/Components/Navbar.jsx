@@ -9,7 +9,7 @@ import { toast } from "react-toastify";
 
 const Navbar = () => {
   const {user,logOut,loading}=useContext(AuthContext)
-  const [theme,setTheme]=useState('light')
+  const [theme,setTheme]=useState( localStorage.getItem('theme') ||'light')
   useEffect(()=>{
     localStorage.setItem("theme",theme)
     const localtheme = localStorage.getItem('theme')
@@ -113,6 +113,7 @@ const Navbar = () => {
            <label className="cursor-pointer grid place-items-center">
   <input
   onChange={handlethemeChange}
+  checked={theme === 'light' ? false : true}
    type="checkbox"
  
     className="toggle theme-controller bg-base-content row-start-1 col-start-1 col-span-2"/>
